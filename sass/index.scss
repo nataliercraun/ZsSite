@@ -1,0 +1,20 @@
+.container {
+	display: flex; 
+	justify-content: center; 
+}
+
+.row {
+	display: flex; 
+	justify-content: center; 
+	flex-direction: row;
+	flew-flow: row wrap;  
+}
+
+.link {
+	/* Decoration */
+	color: black; 
+	text-decoration: none; 
+
+	/* Spacing */
+	margin: 5vw; 
+}
