@@ -1,3 +1,9 @@
+$palette_one: #686256; 
+$palette_two: #c1502e; 
+$palette_three: #587e76; 
+$palette_four:  #a96e5b; 
+
+
 .container {
 	display: flex; 
 	justify-content: center; 
@@ -17,4 +23,15 @@
 
 	/* Spacing */
 	margin: 5vw; 
+
+	/* Transition */
+	transition: all .2s ease-in-out; 
 }
+
+.link:hover {
+	transform: scale(1.2); 
+	color: $palette_two; 
+}
+
+
+

@@ -1,1 +1,1 @@
-.container{display:flex;justify-content:center}.row{display:flex;justify-content:center;flex-direction:row;flew-flow:row wrap}.link{color:black;text-decoration:none;margin:5vw}
+.container{display:flex;justify-content:center}.row{display:flex;justify-content:center;flex-direction:row;flew-flow:row wrap}.link{color:black;text-decoration:none;margin:5vw;transition:all .2s ease-in-out}.link:hover{transform:scale(1.2);color:#c1502e}
