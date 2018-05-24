@@ -47,7 +47,8 @@ $palette_four:  #a96e5b;
 }
 
 .link:hover {
-	transform: scale(1.2); 
+	transform: scale(1.2) !important;
+	color: $palette_two !important;
 }
 
 @import 'mobile'; 
