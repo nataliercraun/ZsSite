@@ -3,7 +3,7 @@ $palette_two: #c1502e;
 $palette_three: #587e76; 
 $palette_four:  #a96e5b; 
 
-.container {
+.linkContainer {
 	display: flex; 
 	justify-content: center; 
 	flex-direction: column; 
@@ -21,7 +21,7 @@ $palette_four:  #a96e5b;
 
 }
 
-.row {
+.linkRow {
 	display: flex; 
 	justify-content: center; 
 	flex-direction: row;
@@ -51,7 +51,8 @@ $palette_four:  #a96e5b;
 	color: $palette_two !important;
 }
 
-@import 'mobile'; 
+@import 'mobile';
+@import 'bootstrap';  
 
 
 

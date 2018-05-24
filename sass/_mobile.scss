@@ -1,6 +1,9 @@
-@media (max-width: 400px) {
+@media (max-width: 600px) {
 
-	.row {
+	.linkRow {
+		box-sizing: border-box; 
+		/* top | right | bottom | left */
+		margin: 0vh 5vw 0vh 5vw; 
 		display: flex; 
 		justify-content: center; 
 		align-items: center; 
@@ -10,7 +13,7 @@
 		border-radius: 25px; 
 	}
 
-	.row:hover {
+	.linkRow:hover {
 		border-color: $palette_two; 
 	}
 }

@@ -4,18 +4,31 @@
 		<title> Home Page </title>
 		<!-- Enable Mobile -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- BootStrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<!-- Nat's CSS -->
 		<link rel="stylesheet" type="text/css" href="css/index.css">
 		<!-- Font for links -->
 		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 	</head>
 	<body>
-		<div class="container">
+		<div class="linkContainer">
 			<div id="header"> This is Title </div>
-			<div class="row">
+			<div class="linkRow">
 				<a id="homeLink" class="link" href="#"> Home </a>
 				<a id="blogLink" class="link" href="#"> Blog </a>
 				<a id="photoLink" class="link" href="#"> Photos </a>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<!-- col-sm = max540px, col-md = max720px, col-lg = max960px --> 
+				<div class="column col-9">
+					Hi
+				</div>
+				<div class="column col-3">
+					Hi
+				</div>
 			</div>
 		</div>
 		<script type="text/javascript" src="js/index.js"></script>
