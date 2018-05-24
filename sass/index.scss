@@ -9,6 +9,10 @@ $palette_four:  #a96e5b;
 	flex-direction: column; 
 }
 
+#photoContainer {
+	display: none; 
+}
+
 #header {
 	box-sizing: border-box; 
 	/* top | right | bottom | left */
@@ -17,8 +21,6 @@ $palette_four:  #a96e5b;
 	text-align: center;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 50px;
-
-
 }
 
 .linkRow {
@@ -49,6 +51,7 @@ $palette_four:  #a96e5b;
 .link:hover {
 	transform: scale(1.2) !important;
 	color: $palette_two !important;
+	text-decoration: none; 
 }
 
 @import 'mobile';

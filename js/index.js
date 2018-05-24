@@ -3,6 +3,8 @@ document.querySelector("#blogLink").onclick = function() {
 	this.style.transform = 'scale(1.2)';
 	this.style.color = '#c1502e';
 
+	var photoPage = document.querySelector("#photoContainer");
+	photoPage.style.display = "none";
 	var home = document.querySelector("#homeLink"); 
 	var photo = document.querySelector("#photoLink");
 
@@ -17,6 +19,8 @@ document.querySelector("#homeLink").onclick = function() {
 	this.style.transform = 'scale(1.2)';
 	this.style.color = '#c1502e';
 
+	var photoPage = document.querySelector("#photoContainer");
+	photoPage.style.display = "none"; 
 	var blog = document.querySelector("#blogLink"); 
 	var photo = document.querySelector("#photoLink");
 
@@ -31,6 +35,8 @@ document.querySelector("#photoLink").onclick = function() {
 	this.style.transform = 'scale(1.2)';
 	this.style.color = '#c1502e';
 
+	var photoPage = document.querySelector("#photoContainer");
+	photoPage.style.display = "block"; 
 	var home = document.querySelector("#homeLink"); 
 	var blog = document.querySelector("#blogLink");
 
