@@ -3,7 +3,6 @@ $palette_two: #c1502e;
 $palette_three: #587e76; 
 $palette_four:  #a96e5b; 
 
-
 .container {
 	display: flex; 
 	justify-content: center; 
@@ -13,13 +12,13 @@ $palette_four:  #a96e5b;
 	display: flex; 
 	justify-content: center; 
 	flex-direction: row;
-	flew-flow: row wrap;  
 }
 
 .link {
 	/* Decoration */
 	color: black; 
 	text-decoration: none; 
+	font-size: 20px; 
 
 	/* Spacing */
 	margin: 5vw; 
@@ -32,6 +31,8 @@ $palette_four:  #a96e5b;
 	transform: scale(1.2); 
 	color: $palette_two; 
 }
+
+@import 'mobile'; 
 
 
 
