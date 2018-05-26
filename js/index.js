@@ -45,3 +45,25 @@ document.querySelector("#photoLink").onclick = function() {
 	blog.style.transform = 'scale(1.0)'; 
 	blog.style.color = 'black';
 }; 
+
+document.querySelector("img").onmouseover = function() {
+	var photos = document.getElementsByTagName('img'); 
+	var i; 
+	for (i = 0; i < photos.length; i++) {
+		if (photos[i] != this) {
+			photos[i].style.opacity = '.5';
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
