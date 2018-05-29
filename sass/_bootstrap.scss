@@ -29,6 +29,8 @@ img {
 .card-text {
 	font-size: 13px; 
 	font-family: 'Indie Flower', cursive;
+	overflow: hidden; 
+	height: 20px; 
 }
 
 .expandBtn {
@@ -42,9 +44,8 @@ img {
 	border-radius: 50px; 
 }
 
-#readMore {
-	position: absolute; 
-	z-index: 999; 
+.expandBtn:hover {
+	cursor: pointer; 
 }
 
 #blogContainer .row {

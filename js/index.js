@@ -52,8 +52,35 @@ document.querySelector("#photoLink").onclick = function() {
 	blog.style.color = 'black';
 }; 
 
-function expandCard() {
-	console.log("card clicked"); 
+document.querySelector("#cardBtnOne").onclick = function() {
+	console.log(this.innerHTML); 
+	if (this.innerHTML != '-') {
+		document.querySelector("#cardTextOne").style.height = '100%'; 
+		this.innerHTML = '-';
+	} else {
+		document.querySelector("#cardTextOne").style.height = '20px'; 
+		this.innerHTML = '+';
+	}
+}
+
+document.querySelector("#cardBtnTwo").onclick = function() {
+	if (this.innerHTML != '-') {
+		document.querySelector("#cardTextTwo").style.height = '100%'; 
+		this.innerHTML = '-';
+	} else {
+		document.querySelector("#cardTextTwo").style.height = '20px'; 
+		this.innerHTML = '+';
+	}
+}
+
+document.querySelector("#cardBtnThree").onclick = function() {
+	if (this.innerHTML != '-') {
+		document.querySelector("#cardTextThree").style.height = '100%'; 
+		this.innerHTML = '-';
+	} else {
+		document.querySelector("#cardTextThree").style.height = '20px'; 
+		this.innerHTML = '+';
+	}
 }
 
 
