@@ -40,7 +40,7 @@ $palette_four:  #a96e5b;
 	display: flex; 
 	justify-content: center; 
 	/* top | right | bottom | left */
-	margin: 50px 0px 20px 0px;
+	margin: 0px 0px 20px 0px;
 	h1 {
 		font-family: AmericanTypewriter; 
 		overflow: hidden; 
@@ -51,6 +51,12 @@ $palette_four:  #a96e5b;
 		animation: typing 3.5s steps(28, end), blink-caret .75s step-end infinite,
 		opacity 3.5s; 
 	}
+}
+
+#map {
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
 }
 
 #header {
