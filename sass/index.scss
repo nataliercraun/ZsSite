@@ -17,6 +17,27 @@ $palette_four:  #a96e5b;
 	display: none; 
 }
 
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+#homeContainer {
+	display: flex; 
+	justify-content: center; 
+	h1 {
+		font-family: AmericanTypewriter; 
+
+		overflow: hidden; 
+		white-space: nowrap; 
+		margin: 0 auto; 
+		letter-spacing: 2px; 
+
+		animation: typing 3.5s steps(22, end);
+	}
+}
+
 #header {
 	box-sizing: border-box; 
 	/* top | right | bottom | left */
