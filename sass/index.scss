@@ -29,6 +29,12 @@ $palette_four:  #a96e5b;
   50% { border-color: orange; }
 }
 
+/* The typewriter cursor effect */
+@keyframes opacity {
+  from { opacity: 0 }
+  to { opacity: 1 }
+}
+
 #homeContainer {
 	text-align: center; 
 	display: flex; 
@@ -36,11 +42,12 @@ $palette_four:  #a96e5b;
 	h1 {
 		font-family: AmericanTypewriter; 
 		overflow: hidden; 
-		border-right: .15em solid orange;
+		border-right: .15em solid $palette_two;
 		white-space: nowrap; 
 		margin: 0 auto; 
 		letter-spacing: 2px; 
-		animation: typing 3.5s steps(22, end), blink-caret .75s step-end infinite;;
+		animation: typing 3.5s steps(22, end), blink-caret .75s step-end infinite,
+		opacity 3.5s; 
 	}
 }
 
