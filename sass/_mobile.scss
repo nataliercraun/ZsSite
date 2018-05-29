@@ -16,4 +16,10 @@
 	.linkRow:hover {
 		border-color: $palette_two; 
 	}
+
+	/* Bootstrap */
+
+	.card {
+		width: 70vw !important; 
+	}
 }
