@@ -23,18 +23,24 @@ $palette_four:  #a96e5b;
   to { width: 100% }
 }
 
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
 #homeContainer {
+	text-align: center; 
 	display: flex; 
 	justify-content: center; 
 	h1 {
 		font-family: AmericanTypewriter; 
-
 		overflow: hidden; 
+		border-right: .15em solid orange;
 		white-space: nowrap; 
 		margin: 0 auto; 
 		letter-spacing: 2px; 
-
-		animation: typing 3.5s steps(22, end);
+		animation: typing 3.5s steps(22, end), blink-caret .75s step-end infinite;;
 	}
 }
 
