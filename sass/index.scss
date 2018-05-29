@@ -39,6 +39,8 @@ $palette_four:  #a96e5b;
 	text-align: center; 
 	display: flex; 
 	justify-content: center; 
+	/* top | right | bottom | left */
+	margin: 50px 0px 20px 0px;
 	h1 {
 		font-family: AmericanTypewriter; 
 		overflow: hidden; 
@@ -46,7 +48,7 @@ $palette_four:  #a96e5b;
 		white-space: nowrap; 
 		margin: 0 auto; 
 		letter-spacing: 2px; 
-		animation: typing 3.5s steps(22, end), blink-caret .75s step-end infinite,
+		animation: typing 3.5s steps(28, end), blink-caret .75s step-end infinite,
 		opacity 3.5s; 
 	}
 }
