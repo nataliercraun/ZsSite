@@ -52,6 +52,10 @@ document.querySelector("#photoLink").onclick = function() {
 	blog.style.color = 'black';
 }; 
 
+function expandCard() {
+	console.log("card clicked"); 
+}
+
 
 
 
