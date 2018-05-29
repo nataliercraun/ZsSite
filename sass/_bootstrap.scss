@@ -46,3 +46,8 @@ img {
 	position: absolute; 
 	z-index: 999; 
 }
+
+#blogContainer .row {
+	/* top | right | bottom | left */
+	margin: 0vh 3vw 0vh 3vw;
+}
