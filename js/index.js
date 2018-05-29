@@ -5,6 +5,8 @@ document.querySelector("#blogLink").onclick = function() {
 
 	var photoPage = document.querySelector("#photoContainer");
 	photoPage.style.display = "none";
+	var blogPage = document.querySelector("#blogContainer"); 
+	blogPage.style.display = "block"; 
 	var home = document.querySelector("#homeLink"); 
 	var photo = document.querySelector("#photoLink");
 
@@ -21,6 +23,8 @@ document.querySelector("#homeLink").onclick = function() {
 
 	var photoPage = document.querySelector("#photoContainer");
 	photoPage.style.display = "none"; 
+	var blogPage = document.querySelector("#blogContainer"); 
+	blogPage.style.display = "none"; 
 	var blog = document.querySelector("#blogLink"); 
 	var photo = document.querySelector("#photoLink");
 
@@ -35,6 +39,8 @@ document.querySelector("#photoLink").onclick = function() {
 	this.style.transform = 'scale(1.2)';
 	this.style.color = '#c1502e';
 
+	var blogPage = document.querySelector("#blogContainer"); 
+	blogPage.style.display = "none"; 
 	var photoPage = document.querySelector("#photoContainer");
 	photoPage.style.display = "block"; 
 	var home = document.querySelector("#homeLink"); 
@@ -45,17 +51,6 @@ document.querySelector("#photoLink").onclick = function() {
 	blog.style.transform = 'scale(1.0)'; 
 	blog.style.color = 'black';
 }; 
-
-document.querySelector("img").onmouseover = function() {
-	var photos = document.getElementsByTagName('img'); 
-	var i; 
-	for (i = 0; i < photos.length; i++) {
-		if (photos[i] != this) {
-			photos[i].style.opacity = '.5';
-		}
-	}
-}
-
 
 
 
